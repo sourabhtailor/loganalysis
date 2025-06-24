@@ -31,3 +31,7 @@ This is a simple **Bash shell script** to analyze Nginx/Apache-style access logs
 ```bash
 chmod +x log-analyzer.sh
 ./log-analyzer.sh /path/to/access.log
+
+Project URL:-
+
+https://roadmap.sh/projects/nginx-log-analyser
