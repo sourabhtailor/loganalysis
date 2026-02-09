@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /corona_tracking_system/
+Disallow: /vendor/
+Disallow: /admin/
+Disallow: 
+
+Sitemap: https://infomagine.in/sitemap.xml

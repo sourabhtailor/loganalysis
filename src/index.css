@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+    height: 100%; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+ overflow-x: hidden;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100v;
+    margin: 0; 
+   
+    font-family: 'Fira Sans', 'Arial', sans-serif; 
+}
+
+:root {
+    --font-primary: 'Fira Sans', 'Arial', sans-serif;
+    --primary-bg: #fff;
+    --primary-color: #333;
+}
+.single-blog-content h1,
+.single-blog-content h2,
+.single-blog-content h3,
+.single-blog-content h4 {
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #1a202c; /* Tailwind's gray-800 */
+}
+
+.single-blog-content h1 {
+  font-size: 2.25rem; /* 36px */
+}
+.single-blog-content h2 {
+  font-size: 1.875rem; /* 30px */
+}
+.single-blog-content h3 {
+  font-size: 1.5rem; /* 24px */
+}
+.single-blog-content h4 {
+  font-size: 1.25rem; /* 20px */
+}
+.single-blog-content a {
+  color: #3b82f6; /* Tailwind blue-500 */
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
